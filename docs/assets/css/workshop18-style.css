@@ -1,6 +1,14 @@
+h3{
+  line-height: 30px; 
+  margin:0px;
+  margin-bottom:0px;
+  padding;0px;
+}
+
 body {
   padding-bottom: 50px;
   font-size: 15px;
+  text-align:justify;
 }
 
 .starter-template {
@@ -25,11 +33,11 @@ body {
     width: 100%;
 }*/
 
-tr:nth-child(even) {background-color: #f2f2f2}
+table.schedule tr:nth-child(even) {background-color: #f2f2f2}
 
 
 
-th, td {
+table.schedule th, td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -37,8 +45,17 @@ th, td {
     width: 5%;
 }
 
-td:last-child {
+table.schedule td:last-child {
   width:30%;    
+}
+
+
+table.other  td {
+	text-align: left;
+	height: 1px;
+    color: black;
+	padding: 0px;
+
 }
 
 /*@media (max-width: 1190px) {
@@ -70,7 +87,7 @@ td:last-child {
 
 
 @media screen and (min-width: 768px) and (max-width: 1191px){
-  body {padding-top: 60px;}
+  body {padding-top: 40px;}
 }
 
 .container.body{
@@ -92,7 +109,7 @@ td:last-child {
 }
 
 .page-header{
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 #topimage {
@@ -116,3 +133,27 @@ td:last-child {
   visibility: hidden; 
 }
 
+img { 
+    object-fit: contain;
+}
+figure {
+  text-align: center;
+
+    display: inline-block;
+	    margin: 5px; /* adjust as needed */
+/*     border: 1px dotted gray;
+ */}
+
+figure img {
+    vertical-align: top;
+    margin: auto;
+	width:150px;
+	height:150px;
+
+}
+
+figure figcaption {
+/*     border: 1px dotted blue;
+ */    text-align: center;
+	width:260px
+}
