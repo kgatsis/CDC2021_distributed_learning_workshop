@@ -203,6 +203,13 @@
 			<img src="assets/fig/Tomlin.jpg" alt="Tomlin">
 			<figcaption><a href="https://people.eecs.berkeley.edu/~tomlin/">Claire J. Tomlin</a> <br>University of California, Berkeley </figcaption>
 		</figure>
+		<br>
+		
+
+		<figure>
+			<img src="assets/fig/Vidal.jpg" alt="Vidal">
+			<figcaption><a href="http://cis.jhu.edu/~rvidal/">Rene Vidal</a> <br>Johns Hopkins University </figcaption>
+		</figure>
 		
 <!--     <ul>
 		<li> <a href="http://www.mit.edu/~dimitrib/home.html">Dimitri P. Bertsekas</a> (Massachusetts Institute of Technology) </li>
@@ -232,24 +239,175 @@
           <tr>
             <th> Time </th>
             <th> Topic </th>
-          <!--</tr>
+          </tr>
             <tr>
-                <td> 8:45 - 9:00 </td>
-                <td><strong>Registration, welcome, and opening remarks</strong></td>
-          </tr>-->
+                <td> 8:30 - 8:45 </td>
+                <td><strong>Opening remarks by organizers</strong></td>
+          </tr>
           <tr>
-            <td> 9:00 - 5:00 </td>
-            <td> TBD
-            <!--<p><strong>Invited talks
-              </strong> <a href="https://link">Name</a> (University)<br/>
-            <a href="javascript:toggleAbstract('Name')">Title</a></p>
-            <div id="Name" style="display:none">
+            <td> 8:45 - 10:30 </td>
+            <td> <p><strong>Session 1: Reinforcement Learning for Control</strong> - Chair: Pramod P. Khargonekar</p>
+			<!--<br>
+			</td>
+		</tr>
+		
+            <tr>
+			<td>  </td>
+			<td> -->
+			<p> 8:45 - 9:20 <a href="javascript:toggleAbstract('Bertsekas')">Title</a> -
+			<a href="http://www.mit.edu/~dimitrib/home.html">Dimitri P. Bertsekas</a> (Massachusetts Institute of Technology) </p>
+            
+            <div id="Bertsekas" style="display:none">
+            <p><strong>Abstract: </strong> here</p>
+            </div>
+			
+			<p> 9:20 - 9:55 <a href="javascript:toggleAbstract('Lewis')">Reinforcement Learning Structures for Real-Time Optimal Control and Differential Games</a> -
+			<a href="https://www.uta.edu/utari/acs/">Frank L. Lewis</a> (University of Texas at Arlington) </p>
+            <div id="Lewis" style="display:none">
+            <p><strong>Abstract: </strong> This talk will discuss some new adaptive control structures for learning online the solutions to optimal control problems and multi-player differential games.  Techniques from reinforcement learning are used to design a new family of adaptive controllers based on actor-critic mechanisms that converge in real time to optimal control and game theoretic solutions.  Continuous-time systems are considered.  Application of reinforcement learning to continuous-time (CT) systems has been hampered because the system Hamiltonian contains the full system dynamics. Using our technique known as Integral Reinforcement Learning (IRL), we will develop reinforcement learning methods that do not require knowledge of the system drift dynamics.  In the linear quadratic (LQ) case, the new RL adaptive control algorithms learn the solution to the Riccati equation by adaptation along the system motion trajectories.  In the case of nonlinear systems with general performance measures, the algorithms learn the (approximate smooth local) solutions of HJ or HJI equations.  New algorithms will be presented for solving online the non zero-sum and zero-sum multi-player games. Each player maintains two adaptive learning structures, a critic network and an actor network.  The result is an adaptive control system that learns based on the interplay of agents in a game, to deliver true online gaming behavior. A new Experience Replay technique is given that uses past data for present learning and significantly speeds up convergence. New methods of Off-policy Learning allow learning of optimal solutions without knowing any dynamic information. New RL methods in Optimal Tracking allow solution of the Output Regulator Equations for heterogeneous multi-agent systems.</p>
+			<p><strong>Bio: </strong> Member, National Academy of Inventors.  Fellow IEEE, Fellow IFAC, Fellow AAAS, Fellow U.K. Institute of Measurement & Control, PE Texas, U.K. Chartered Engineer. UTA Distinguished Scholar Professor, UTA Distinguished Teaching Professor, and Moncrief-O’Donnell Chair at The University of Texas at Arlington Research Institute.  Qian Ren Thousand Talents Consulting Professor, Northeastern University, Shenyang, China. Foreign Expert Scholar, Huazhong University of Science and Technology. IEEE Control Systems Society Distinguished Lecturer.  Bachelor's Degree in Physics/EE and MSEE at Rice University, MS in Aeronautical Engineering at Univ. W. Florida, Ph.D. at Ga. Tech.  He works in feedback control, reinforcement learning, intelligent systems, and distributed control systems.  He is author of 7 U.S. patents, 384 journal papers, 426 conference papers, 20 books, 48 chapters, and 12 journal special issues.  He received the Fulbright Research Award, NSF Research Initiation Grant, ASEE Terman Award, Int. Neural Network Soc. Gabor Award 2009, U.K. Inst. Measurement & Control Honeywell Field Engineering Medal 2009.  Received IEEE Computational Intelligence Society Neural Networks Pioneer Award 2012 and AIAA Intelligent Systems Award 2016.  Distinguished Foreign Scholar at Nanjing Univ. Science & Technology. Project 111 Professor at Northeastern University, China. Distinguished Foreign Scholar at Chongqing Univ. China. Received Outstanding Service Award from Dallas IEEE Section, selected as Engineer of the Year by Ft. Worth IEEE Section.  Listed in Ft. Worth Business Press Top 200 Leaders in Manufacturing. Received the 2010 IEEE Region 5 Outstanding Engineering Educator Award and the 2010 UTA Graduate Dean’s Excellence in Doctoral Mentoring Award. Elected to UTA Academy of Distinguished Teachers 2012.  Texas Regents Outstanding Teaching Award 2013. He served on the NAE Committee on Space Station in 1995.  </p>
+            </div>
+
+            <p> 9:55 - 10:30 
+            <a href="javascript:toggleAbstract('Recht')">Title</a> - 
+			<a href="https://people.eecs.berkeley.edu/~brecht/">Benjamin Recht</a> (University of California, Berkeley)  </p>
+            <div id="Recht" style="display:none">
             <p><strong>Abstract: </strong> here</p>
             </div>
             </td>
-
-            
+			
           </tr>
+		  
+		  <tr>
+            <td> 10:30 - 11:00 </td>
+            <td> Break
+			<br>
+			</td>
+		</tr>
+		
+		<tr>
+            <td> 11:00 - 12:00 </td>
+            <td> <p><strong>Keynote Session</strong> - Chair: Manfred Morari</p>
+			<a href="javascript:toggleAbstract('Keynote')"> Dynamical, Symplectic and Stochastic Perspectives on Gradient-Based Optimization</a> -
+			<a href="https://people.eecs.berkeley.edu/~jordan/">Michael I. Jordan</a> (University of California, Berkeley)
+            </p>
+            <div id="Keynote" style="display:none">
+            <p><strong>Abstract: </strong> Many new theoretical challenges have arisen in the area of gradient-based
+optimization for large-scale control and inference problems, driven by the needs of
+applications and the opportunities provided by new hardware and software platforms.
+I discuss several recent, related results in this area: (1) a new framework
+for understanding Nesterov acceleration, obtained by taking a continuous-time,
+Lagrangian/Hamiltonian/symplectic perspective, (2) a discussion of how to
+escape saddle points efficiently in nonconvex optimization, and (3) the
+acceleration of Langevin diffusion.</p>
+
+<p><strong>Bio:</strong> Michael I. Jordan is the Pehong Chen Distinguished Professor in the
+Department of Electrical Engineering and Computer Science and the
+Department of Statistics at the University of California, Berkeley.
+His research interests bridge the computational, statistical, cognitive
+and biological sciences.  Prof. Jordan is a member of the National Academy
+of Sciences and a member of the National Academy of Engineering.
+He has been named a Neyman Lecturer and a Medallion Lecturer by the
+Institute of Mathematical Statistics.  He received the IJCAI Research
+Excellence Award in 2016, the David E. Rumelhart Prize in 2015 and
+the ACM/AAAI Allen Newell Award in 2009</p>
+            </div>
+			</td>
+		</tr>
+		<tr>
+            <td> 12:00 - 1:30 </td>
+            <td> Lunch Break
+			<br>
+			</td>
+		</tr>
+		
+		<tr>
+            <td> 1:30 - 3:15 </td>
+            <td> <p><strong>Session 2: Optimization and Statistical Learning</strong> - Chair: George J. Pappas</p>
+			<!--</td>
+		</tr>
+		
+            <tr>
+			<td>  </td>
+			<td> -->
+			<p> 1:30 - 2:05 
+			<a href="javascript:toggleAbstract('Vidal')">Title</a> - 
+			<a href="http://cis.jhu.edu/~rvidal/">Rene Vidal</a> (Johns Hopkins University)
+            </p>
+            <div id="Vidal" style="display:none">
+            <p><strong>Abstract: </strong> here</p>
+            </div>
+			
+			<p> 2:05 - 2:40 
+            <a href="javascript:toggleAbstract('Fazel')">Title</a> - 
+			<a href="https://faculty.washington.edu/mfazel/">Maryam Fazel</a> (University of Washington)
+			</p>
+            <div id="Fazel" style="display:none">
+            <p><strong>Abstract: </strong> here</p>
+            </div>
+
+            <p> 2:40 - 3:15 
+            <a href="javascript:toggleAbstract('Calafiore')">Title</a> - 
+			<a href="http://staff.polito.it/giuseppe.calafiore/Home_Page/Home.html">Giuseppe Carlo Calafiore</a> (Politecnico di Torino)
+			</p>
+            <div id="Calafiore" style="display:none">
+            <p><strong>Abstract: </strong> here</p>
+            </div>
+            </td>
+			
+          </tr>
+		  
+		  <tr>
+            <td> 3:15 - 3:30 </td>
+            <td> Break
+			<br>
+			</td>
+		</tr>
+		
+		  <tr>
+            <td> 3:30 - 5:15 </td>
+            <td> <p><strong>Session 3: Safe Learning for Control</strong> - Chair: Konstantinos Gatsis</p>
+			<!--<br>
+			</td>
+		</tr>
+		
+            <tr>
+			<td>  </td>
+			<td> -->
+			<p> 3:30 - 4:05 
+            <a href="javascript:toggleAbstract('Schoellig')">Title</a> -
+			<a href="http://www.dynsyslab.org/prof-angela-schoellig/">Angela Schoellig</a> (University of Toronto)
+			</p>
+            <div id="Schoellig" style="display:none">
+            <p><strong>Abstract: </strong> here</p>
+            </div>
+			
+			<p> 4:05 - 4:40 
+            <a href="javascript:toggleAbstract('Borrelli')">Title</a> - 
+			<a href="http://www.me.berkeley.edu/people/faculty/francesco-borrelli">Francesco Borrelli</a> (University of California, Berkeley)
+			</p>
+            <div id="Borrelli" style="display:none">
+            <p><strong>Abstract: </strong> here</p>
+            </div>
+
+            <p> 4:40 - 5:15 
+            <a href="javascript:toggleAbstract('Tomlin')">Title</a> - 
+			<a href="https://people.eecs.berkeley.edu/~tomlin/">Claire J. Tomlin</a> (University of California, Berkeley)
+			</p>
+            <div id="Tomlin" style="display:none">
+            <p><strong>Abstract: </strong> here</p>
+            </div>
+            </td>
+			
+          </tr>
+		  
+		  <tr>
+            <td> 5:15 - 5:25 </td>
+            <td> <strong>Closing remarks by organizers</strong> 
+
+            </td>
+          </tr> 
+		  <!--
           <tr>
             <td> 9:30 - 10:00 </td>
             <td> 
@@ -275,10 +433,10 @@
           <tr>
             <td> 4:30 - 5:00 </td>
             <td> <strong>Afternoon wrap-up: panel discussion & closing remarks</strong> 
--->
+
             </td>
           </tr>    
-                       
+           -->            
         </tbody>
       </table>
         
